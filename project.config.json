@@ -1,0 +1,15 @@
+{
+  "miniprogramRoot": "./dist",
+  "projectname": "myApp",
+  "description": "Road Cars 是一个简单的公路车数据检索和价格筛选系统，旨在帮助用户根据个人喜好和经济预算找到适合的公路车。该系统提供了一个用户友好的界面，使用户能够轻松浏览和筛选不同品牌、型号和价格区间的公路车。",
+  "appid": "touristappid",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": false,
+    "compileHotReLoad": false,
+    "postcss": false,
+    "minified": false
+  },
+  "compileType": "miniprogram"
+}
