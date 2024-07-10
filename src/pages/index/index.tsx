@@ -1,16 +1,17 @@
-import { View, Text } from '@tarojs/components'
-import { useLoad } from '@tarojs/taro'
+import {View} from '@tarojs/components'
 import './index.scss'
+import {AtButton} from 'taro-ui'
 
-export default function Index() {
+const Home = () => {
 
-  useLoad(() => {
-    console.log('Page loaded.')
-  })
+  const handleClick = () =>
+    console.log('点击了')
 
   return (
     <View className='index'>
-      <Text>Hello world!</Text>
+      <AtButton type="primary" onClick={handleClick}>12312</AtButton>
     </View>
   )
 }
+
+export default Home
